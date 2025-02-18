@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/IBM/sarama"
+	"github.com/Shopify/sarama"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/njcx/libbeat_v6/beat"

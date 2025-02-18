@@ -24,7 +24,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/IBM/sarama"
+	"github.com/Shopify/sarama"
 
 	"github.com/njcx/libbeat_v6/common/fmtstr"
 	"github.com/njcx/libbeat_v6/logp"

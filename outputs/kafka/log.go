@@ -18,7 +18,7 @@
 package kafka
 
 import (
-	"github.com/IBM/sarama"
+	"github.com/Shopify/sarama"
 
 	"github.com/njcx/libbeat_v6/logp"
 )

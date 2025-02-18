@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/IBM/sarama"
+	"github.com/Shopify/sarama"
 
 	"github.com/njcx/libbeat_v6/common"
 	"github.com/njcx/libbeat_v6/common/fmtstr"
