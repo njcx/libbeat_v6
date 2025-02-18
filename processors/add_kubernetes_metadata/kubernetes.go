@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/kubernetes"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/kubernetes"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/processors"
 )
 
 const (

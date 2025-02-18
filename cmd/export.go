@@ -20,8 +20,8 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/cmd/export"
-	"github.com/elastic/beats/libbeat/cmd/instance"
+	"github.com/njcx/libbeat_v6/cmd/export"
+	"github.com/njcx/libbeat_v6/cmd/instance"
 )
 
 func genExportCmd(settings instance.Settings, name, idxPrefix, beatVersion string) *cobra.Command {

@@ -26,11 +26,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/outest"
-	"github.com/elastic/beats/libbeat/outputs/transport"
-	"github.com/elastic/beats/libbeat/outputs/transport/transptest"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/outputs/outest"
+	"github.com/njcx/libbeat_v6/outputs/transport"
+	"github.com/njcx/libbeat_v6/outputs/transport/transptest"
 	"github.com/elastic/go-lumber/server/v2"
 )
 

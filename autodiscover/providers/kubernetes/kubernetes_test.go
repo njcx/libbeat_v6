@@ -26,10 +26,10 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/autodiscover/template"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
-	"github.com/elastic/beats/libbeat/common/kubernetes"
+	"github.com/njcx/libbeat_v6/autodiscover/template"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/bus"
+	"github.com/njcx/libbeat_v6/common/kubernetes"
 )
 
 func TestGenerateHints(t *testing.T) {

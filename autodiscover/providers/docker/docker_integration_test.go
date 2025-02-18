@@ -26,9 +26,9 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
-	dk "github.com/elastic/beats/libbeat/tests/docker"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/bus"
+	dk "github.com/njcx/libbeat_v6/tests/docker"
 )
 
 // Test docker start emits an autodiscover event

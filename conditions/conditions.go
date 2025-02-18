@@ -20,8 +20,8 @@ package conditions
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/common/match"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/common/match"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 // Config represents a configuration for a condition, as you would find it in the config files.

@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 // CreateOptions are the options when containers are created

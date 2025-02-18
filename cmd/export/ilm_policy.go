@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/cmd/instance"
+	"github.com/njcx/libbeat_v6/cmd/instance"
 )
 
 // GenGetILMPolicyCmd is the command used to export the ilm policy.

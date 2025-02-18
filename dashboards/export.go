@@ -23,12 +23,13 @@ import (
 	"io/ioutil"
 	"path/filepath"
 	"strconv"
+    "os"
+    "path"
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/elastic/beats/filebeat/scripts/generator"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/kibana"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/kibana"
 )
 
 const (
@@ -86,7 +87,7 @@ func ExportAll(client *kibana.Client, list ListYML) ([]common.MapStr, error) {
 // SaveToFile creates the required directories if needed and saves dashboard.
 func SaveToFile(dashboard common.MapStr, filename, root string, version common.Version) error {
 	dashboardsPath := "_meta/kibana/" + strconv.Itoa(version.Major) + "/dashboard"
-	err := generator.CreateDirectories(root, dashboardsPath)
+	err := CreateDirectories(root, dashboardsPath)
 	if err != nil {
 		return err
 	}
@@ -98,4 +99,16 @@ func SaveToFile(dashboard common.MapStr, filename, root string, version common.V
 	}
 
 	return ioutil.WriteFile(out, bytes, dashboardPerm)
+}
+
+
+func CreateDirectories(baseDir string, directories ...string) error {
+	for _, d := range directories {
+		p := path.Join(baseDir, d)
+		err := os.MkdirAll(p, 0o750)
+		if err != nil {
+			return err
+		}
+	}
+	return nil
 }

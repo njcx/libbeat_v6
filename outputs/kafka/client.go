@@ -26,12 +26,12 @@ import (
 
 	"github.com/IBM/sarama"
 
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/codec"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/njcx/libbeat_v6/common/fmtstr"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/outputs"
+	"github.com/njcx/libbeat_v6/outputs/codec"
+	"github.com/njcx/libbeat_v6/outputs/outil"
+	"github.com/njcx/libbeat_v6/publisher"
 )
 
 type client struct {

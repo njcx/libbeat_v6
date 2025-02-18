@@ -17,7 +17,7 @@
 
 package memqueue
 
-import "github.com/elastic/beats/libbeat/publisher"
+import "github.com/njcx/libbeat_v6/publisher"
 
 type batchBuffer struct {
 	next    *batchBuffer

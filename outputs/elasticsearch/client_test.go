@@ -29,13 +29,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs/outest"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/fmtstr"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/outputs/outest"
+	"github.com/njcx/libbeat_v6/outputs/outil"
+	"github.com/njcx/libbeat_v6/publisher"
 )
 
 func readStatusItem(in []byte) (int, string, error) {

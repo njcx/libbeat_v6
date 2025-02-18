@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 type mapper map[string]map[string]Featurable

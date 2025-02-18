@@ -20,8 +20,8 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/mock"
+	"github.com/njcx/libbeat_v6/cmd"
+	"github.com/njcx/libbeat_v6/mock"
 )
 
 var RootCmd = cmd.GenRootCmd(mock.Name, mock.Version, mock.New)

@@ -20,7 +20,7 @@ package beat
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/njcx/libbeat_v6/common"
 )
 
 type Pipeline interface {

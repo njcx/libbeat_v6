@@ -23,10 +23,10 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/cfgwarn"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/monitoring"
 )
 
 // Start starts the metrics api endpoint on the configured host and port

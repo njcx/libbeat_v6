@@ -30,8 +30,8 @@ import (
 	"github.com/joeshaw/multierror"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 var (

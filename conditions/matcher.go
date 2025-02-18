@@ -20,8 +20,8 @@ package conditions
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/common/match"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/common/match"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 type matcherMap map[string]match.Matcher

@@ -19,7 +19,7 @@ package testing
 
 // ChanClient implements Client interface, forwarding published events to some
 import (
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/njcx/libbeat_v6/beat"
 )
 
 type TestPublisher struct {

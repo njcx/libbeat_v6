@@ -20,8 +20,8 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cmd/test"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/cmd/test"
 )
 
 func genTestCmd(name, beatVersion string, beatCreator beat.Creator) *cobra.Command {

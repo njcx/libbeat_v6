@@ -18,7 +18,7 @@
 package kibana
 
 import (
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/njcx/libbeat_v6/common"
 	"github.com/elastic/go-ucfg/yaml"
 )
 

@@ -25,7 +25,7 @@ import (
 
 	errw "github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/njcx/libbeat_v6/common"
 )
 
 type importMethod uint8

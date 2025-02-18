@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 var debug bool

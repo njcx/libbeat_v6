@@ -26,7 +26,7 @@ import (
 	"github.com/docker/docker/client"
 	"golang.org/x/net/context"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 // NewClient builds and returns a new Docker client

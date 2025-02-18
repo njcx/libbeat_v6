@@ -20,7 +20,7 @@ package add_docker_metadata
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/docker"
+	"github.com/njcx/libbeat_v6/common/docker"
 )
 
 // Config for docker processor.

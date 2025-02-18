@@ -17,7 +17,7 @@
 
 package template
 
-import "github.com/elastic/beats/libbeat/common"
+import "github.com/njcx/libbeat_v6/common"
 
 type TemplateConfig struct {
 	Enabled bool   `config:"enabled"`

@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 // GetContainerID returns the id of a container

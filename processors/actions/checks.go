@@ -20,8 +20,8 @@ package actions
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/processors"
 )
 
 func configChecked(

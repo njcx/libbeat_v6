@@ -17,7 +17,7 @@
 
 package add_cloud_metadata
 
-import "github.com/elastic/beats/libbeat/common"
+import "github.com/njcx/libbeat_v6/common"
 
 // Alibaba Cloud Metadata Service
 // Document https://help.aliyun.com/knowledge_detail/49122.html

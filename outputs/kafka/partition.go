@@ -28,8 +28,8 @@ import (
 
 	"github.com/IBM/sarama"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 type partitionBuilder func(*common.Config) (func() partitioner, error)

@@ -26,13 +26,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch/internal"
-	"github.com/elastic/beats/libbeat/outputs/outest"
-	"github.com/elastic/beats/libbeat/outputs/outil"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/outputs"
+	"github.com/njcx/libbeat_v6/outputs/elasticsearch/internal"
+	"github.com/njcx/libbeat_v6/outputs/outest"
+	"github.com/njcx/libbeat_v6/outputs/outil"
 )
 
 func TestClientConnect(t *testing.T) {

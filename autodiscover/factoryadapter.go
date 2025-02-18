@@ -20,10 +20,10 @@ package autodiscover
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/cfgfile"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/bus"
 )
 
 // FactoryAdapter is an adapter that works with any cfgfile.RunnerFactory.

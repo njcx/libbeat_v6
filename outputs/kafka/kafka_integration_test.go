@@ -33,14 +33,14 @@ import (
 	"github.com/IBM/sarama"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	_ "github.com/elastic/beats/libbeat/outputs/codec/format"
-	_ "github.com/elastic/beats/libbeat/outputs/codec/json"
-	"github.com/elastic/beats/libbeat/outputs/outest"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/fmtstr"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/outputs"
+	_ "github.com/njcx/libbeat_v6/outputs/codec/format"
+	_ "github.com/njcx/libbeat_v6/outputs/codec/json"
+	"github.com/njcx/libbeat_v6/outputs/outest"
 )
 
 const (

@@ -25,14 +25,14 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/codec"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/outputs/transport"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/outputs"
+	"github.com/njcx/libbeat_v6/outputs/codec"
+	"github.com/njcx/libbeat_v6/outputs/outil"
+	"github.com/njcx/libbeat_v6/outputs/transport"
+	"github.com/njcx/libbeat_v6/publisher"
 )
 
 var (

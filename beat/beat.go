@@ -18,8 +18,8 @@
 package beat
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/management"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/management"
 )
 
 // Creator initializes and configures a new Beater instance used to execute

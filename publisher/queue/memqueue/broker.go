@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/feature"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/publisher/queue"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/feature"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/publisher/queue"
 )
 
 // Feature exposes a memory queue.

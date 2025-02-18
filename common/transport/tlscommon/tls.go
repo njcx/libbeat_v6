@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 // LoadCertificate will load a certificate from disk and return a tls.Certificate or error

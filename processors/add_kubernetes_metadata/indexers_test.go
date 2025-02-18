@@ -25,8 +25,8 @@ import (
 	metav1 "github.com/ericchiang/k8s/apis/meta/v1"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/kubernetes"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/kubernetes"
 )
 
 var metagen, _ = kubernetes.NewMetaGenerator(common.NewConfig())

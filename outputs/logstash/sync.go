@@ -20,11 +20,11 @@ package logstash
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/transport"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/outputs"
+	"github.com/njcx/libbeat_v6/outputs/transport"
+	"github.com/njcx/libbeat_v6/publisher"
 	"github.com/elastic/go-lumber/client/v2"
 )
 

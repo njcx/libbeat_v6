@@ -18,9 +18,9 @@
 package add_cloud_metadata
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstriface"
+	"github.com/njcx/libbeat_v6/common"
+	s "github.com/njcx/libbeat_v6/common/schema"
+	c "github.com/njcx/libbeat_v6/common/schema/mapstriface"
 )
 
 // DigitalOcean Metadata Service

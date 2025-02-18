@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/njcx/libbeat_v6/monitoring"
 )
 
 type ptrRecord struct {

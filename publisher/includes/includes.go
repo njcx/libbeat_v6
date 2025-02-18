@@ -19,14 +19,14 @@ package includes
 
 import (
 	// import queue types
-	_ "github.com/elastic/beats/libbeat/outputs/codec/format"
-	_ "github.com/elastic/beats/libbeat/outputs/codec/json"
-	_ "github.com/elastic/beats/libbeat/outputs/console"
-	_ "github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	_ "github.com/elastic/beats/libbeat/outputs/fileout"
-	_ "github.com/elastic/beats/libbeat/outputs/kafka"
-	_ "github.com/elastic/beats/libbeat/outputs/logstash"
-	_ "github.com/elastic/beats/libbeat/outputs/redis"
-	_ "github.com/elastic/beats/libbeat/publisher/queue/memqueue"
-	_ "github.com/elastic/beats/libbeat/publisher/queue/spool"
+	_ "github.com/njcx/libbeat_v6/outputs/codec/format"
+	_ "github.com/njcx/libbeat_v6/outputs/codec/json"
+	_ "github.com/njcx/libbeat_v6/outputs/console"
+	_ "github.com/njcx/libbeat_v6/outputs/elasticsearch"
+	_ "github.com/njcx/libbeat_v6/outputs/fileout"
+	_ "github.com/njcx/libbeat_v6/outputs/kafka"
+	_ "github.com/njcx/libbeat_v6/outputs/logstash"
+	_ "github.com/njcx/libbeat_v6/outputs/redis"
+	_ "github.com/njcx/libbeat_v6/publisher/queue/memqueue"
+	_ "github.com/njcx/libbeat_v6/publisher/queue/spool"
 )

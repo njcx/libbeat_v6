@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/njcx/libbeat_v6/common"
 )
 
 func TestPathComponentType_String(t *testing.T) {

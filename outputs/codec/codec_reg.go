@@ -20,8 +20,8 @@ package codec
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/common"
 )
 
 type Factory func(beat.Info, *common.Config) (Codec, error)

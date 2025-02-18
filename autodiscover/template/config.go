@@ -18,10 +18,10 @@
 package template
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
-	"github.com/elastic/beats/libbeat/conditions"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/bus"
+	"github.com/njcx/libbeat_v6/conditions"
+	"github.com/njcx/libbeat_v6/logp"
 	"github.com/elastic/go-ucfg"
 )
 

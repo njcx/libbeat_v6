@@ -22,7 +22,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/njcx/libbeat_v6/common"
 )
 
 // Is creates a named IsDef with the given checker.

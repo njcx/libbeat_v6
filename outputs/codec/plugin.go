@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/plugin"
+	"github.com/njcx/libbeat_v6/plugin"
 )
 
 type codecPlugin struct {

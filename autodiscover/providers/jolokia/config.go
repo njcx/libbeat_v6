@@ -20,8 +20,8 @@ package jolokia
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/autodiscover/template"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/njcx/libbeat_v6/autodiscover/template"
+	"github.com/njcx/libbeat_v6/common"
 )
 
 var (

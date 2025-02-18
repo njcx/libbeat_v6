@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/elastic/beats/libbeat/common/atomic"
+	"github.com/njcx/libbeat_v6/common/atomic"
 )
 
 // makeExpvar wraps a callback for registering a metrics with expvar.Publish.

@@ -18,9 +18,9 @@
 package pipeline
 
 import (
-	"github.com/elastic/beats/libbeat/common/atomic"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/njcx/libbeat_v6/common/atomic"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/outputs"
 )
 
 // clientWorker manages output client of type outputs.Client, not supporting reconnect.

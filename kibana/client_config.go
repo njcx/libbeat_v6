@@ -20,7 +20,7 @@ package kibana
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
+	"github.com/njcx/libbeat_v6/common/transport/tlscommon"
 )
 
 // ClientConfig to connect to Kibana

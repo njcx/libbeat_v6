@@ -20,7 +20,7 @@ package mapval
 import (
 	"reflect"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/njcx/libbeat_v6/common"
 )
 
 type walkObserverInfo struct {

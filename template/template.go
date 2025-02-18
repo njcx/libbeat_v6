@@ -24,10 +24,10 @@ import (
 
 	"github.com/elastic/go-ucfg/yaml"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/cfgwarn"
+	"github.com/njcx/libbeat_v6/common/fmtstr"
 )
 
 var (

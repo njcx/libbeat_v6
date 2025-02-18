@@ -20,7 +20,7 @@ package add_kubernetes_metadata
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/njcx/libbeat_v6/common"
 )
 
 type kubeAnnotatorConfig struct {

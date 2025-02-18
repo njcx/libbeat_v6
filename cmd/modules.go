@@ -23,9 +23,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/cmd/instance"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/cfgfile"
+	"github.com/njcx/libbeat_v6/cmd/instance"
 )
 
 // ModulesManager interface provides all actions needed to implement modules command

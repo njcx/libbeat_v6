@@ -32,7 +32,7 @@ import (
 
 	errw "github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/njcx/libbeat_v6/common"
 )
 
 // ErrNotFound returned when we cannot find any dashboard to import.

@@ -24,8 +24,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cmd/instance"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/cmd/instance"
 )
 
 func genRunCmd(settings instance.Settings, beatCreator beat.Creator, runFlags *pflag.FlagSet) *cobra.Command {

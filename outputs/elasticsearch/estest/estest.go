@@ -20,9 +20,9 @@ package estest
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch/internal"
-	"github.com/elastic/beats/libbeat/outputs/outil"
+	"github.com/njcx/libbeat_v6/outputs/elasticsearch"
+	"github.com/njcx/libbeat_v6/outputs/elasticsearch/internal"
+	"github.com/njcx/libbeat_v6/outputs/outil"
 )
 
 // GetTestingElasticsearch creates a test client.

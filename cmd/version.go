@@ -23,9 +23,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/libbeat/common/cli"
-	"github.com/elastic/beats/libbeat/version"
+	"github.com/njcx/libbeat_v6/cmd/instance"
+	"github.com/njcx/libbeat_v6/common/cli"
+	"github.com/njcx/libbeat_v6/version"
 )
 
 func genVersionCmd(name, beatVersion string) *cobra.Command {

@@ -23,15 +23,15 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	"github.com/elastic/beats/libbeat/autodiscover"
-	"github.com/elastic/beats/libbeat/autodiscover/builder"
-	"github.com/elastic/beats/libbeat/autodiscover/template"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/common/docker"
-	"github.com/elastic/beats/libbeat/common/safemapstr"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/njcx/libbeat_v6/autodiscover"
+	"github.com/njcx/libbeat_v6/autodiscover/builder"
+	"github.com/njcx/libbeat_v6/autodiscover/template"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/common/bus"
+	"github.com/njcx/libbeat_v6/common/cfgwarn"
+	"github.com/njcx/libbeat_v6/common/docker"
+	"github.com/njcx/libbeat_v6/common/safemapstr"
+	"github.com/njcx/libbeat_v6/logp"
 )
 
 func init() {

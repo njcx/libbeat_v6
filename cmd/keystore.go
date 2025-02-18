@@ -30,10 +30,10 @@ import (
 	"github.com/spf13/pflag"
 	tml "golang.org/x/crypto/ssh/terminal"
 
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/libbeat/common/cli"
-	"github.com/elastic/beats/libbeat/common/terminal"
-	"github.com/elastic/beats/libbeat/keystore"
+	"github.com/njcx/libbeat_v6/cmd/instance"
+	"github.com/njcx/libbeat_v6/common/cli"
+	"github.com/njcx/libbeat_v6/common/terminal"
+	"github.com/njcx/libbeat_v6/keystore"
 )
 
 func getKeystore(name, version string) (keystore.Keystore, error) {

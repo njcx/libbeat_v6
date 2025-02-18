@@ -23,8 +23,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cmd/instance"
+	"github.com/njcx/libbeat_v6/beat"
+	"github.com/njcx/libbeat_v6/cmd/instance"
 )
 
 func genSetupCmd(name, idxPrefix, version string, beatCreator beat.Creator) *cobra.Command {

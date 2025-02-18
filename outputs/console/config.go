@@ -17,7 +17,7 @@
 
 package console
 
-import "github.com/elastic/beats/libbeat/outputs/codec"
+import "github.com/njcx/libbeat_v6/outputs/codec"
 
 type Config struct {
 	Codec codec.Config `config:"codec"`

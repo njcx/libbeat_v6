@@ -20,8 +20,8 @@ package instance
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/monitoring/report"
+	"github.com/njcx/libbeat_v6/common"
+	"github.com/njcx/libbeat_v6/monitoring/report"
 )
 
 // Settings contains basic settings for any beat to pass into GenRootCmd

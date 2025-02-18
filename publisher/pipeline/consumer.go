@@ -18,9 +18,9 @@
 package pipeline
 
 import (
-	"github.com/elastic/beats/libbeat/common/atomic"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/publisher/queue"
+	"github.com/njcx/libbeat_v6/common/atomic"
+	"github.com/njcx/libbeat_v6/logp"
+	"github.com/njcx/libbeat_v6/publisher/queue"
 )
 
 // eventConsumer collects and forwards events from the queue to the outputs work queue.
