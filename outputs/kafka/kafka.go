@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Shopify/sarama"
+	"github.com/IBM/sarama"
 	gometrics "github.com/rcrowley/go-metrics"
 
 	"github.com/elastic/beats/libbeat/beat"
