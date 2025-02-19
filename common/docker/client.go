@@ -55,9 +55,9 @@ func NewClient(host string, httpClient *http.Client, httpHeaders map[string]stri
 		}
 
 		// if server version is lower than the client version, downgrade
-		if versions.LessThan(ping.APIVersion, version) {
-			c.UpdateClientVersion(ping.APIVersion)
-		}
+        if versions.LessThan(ping.APIVersion, version) {
+            c.NegotiateAPIVersion(context.Background())
+        }
 	}
 
 	logp.Debug("docker", "Client version set to %s", c.ClientVersion())
